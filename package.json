@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/afan1123/myNode/issues"
   },
-  "homepage": "https://github.com/afan1123/myNode#readme"
+  "homepage": "https://github.com/afan1123/myNode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1"
+  }
 }

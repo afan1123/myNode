@@ -1,7 +1,7 @@
 const http = require('http');
 const url = require('url');
 // const port = 3000;
-const hostname = '127.0.0.1';
+// const hostname = '127.0.0.1';
 function start (route, handle) {
   function onRequest (req, res) {
     var pathname = url.parse(req.url).pathname;
